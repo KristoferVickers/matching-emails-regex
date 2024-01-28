@@ -1,10 +1,15 @@
 # Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+Matching and Validating Emails : Regex Turtorial 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A Regex or regular expression is a sequence of characters that define a search pattern. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings. It also looks for input validations. It is a technique commonly developed in theoretical computer science.
+
+We will look a a string of code using regex, this snippet will matcha nd validate an email.
+
+Example : ^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$
+
+The content below will give a description of each section of this code. 
 
 ## Table of Contents
 
@@ -22,13 +27,23 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
+This specific expression incorporates anchors, quantifiers, meta escape characters, character classes, single character matches, grouping and capturing, and bracket expressions. In the tutorial's example, ^ and $ function as anchors, + and {2, 6} serve as quantifiers, \d denotes the meta escape character, [a-z0-9_.-], [\da-z.-], and [a-z.] define character classes, and _, ., - represent single character matches. Additionally, () signifies grouping and capturing, while [] delineates the bracket expression.
+
 ### Anchors
+
+Within regex, anchors denote the expression's start and end points. In this case, ^ marks the beginning, and $ marks the end of the expression.
 
 ### Quantifiers
 
+Quantifiers are meta characters modifying the preceding character, specifying how many instances should be matched in succession. The + sign matches one or more preceding characters, while {min, max} establishes a specific numerical quantifier range.
+
 ### OR Operator
 
+Although this regex lacks OR operators, in general, they are represented by the pipe | under the alternation regex type.
+
 ### Character Classes
+
+Character classes allow the definition of specific sets of characters in a regex pattern. The classes used here are [a-z0-9_.-], [\da-z.-], and [a-z.], each specifying different character ranges.
 
 ### Flags
 
@@ -43,6 +58,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Back-references
 
 ### Look-ahead and Look-behind
+
 
 ## Author
 
