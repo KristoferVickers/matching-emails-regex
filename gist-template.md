@@ -66,9 +66,16 @@ Greedy matching, the default regex behavior, seeks to match as much of the strin
 
 ### Back-references
 
+Back-references (\2) are the echo, referring to a previous part of the regex, creating a connection.
+
 ### Look-ahead and Look-behind
 
+Represented as ?=foo (look-ahead) and ?<=foo (look-behind), these elements focus on what immediately follows or precedes the string "foo," respectively.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hey there! I'm Kristofer Vickers, riding the coding wave at the University of Kansas bootcamp. I'm always on the lookout for new ways to make a tech impact, I'm mastering programming languages and tools. If you have any questions please feel free to contact me:
+
+https://github.com/KristoferVickers
+
+kristofervickers2018@gmail.com 
