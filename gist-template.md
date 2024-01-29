@@ -1,4 +1,4 @@
-# Matching and Validating Emails : Regex Turtorial 
+# Matching Emails : Regex Turtorial 
 
 ## Summary
 
@@ -74,8 +74,9 @@ Look-ahead (?=foo) and look-behind (?<=foo) peek into what comes after or before
 
 ## Author
 
-Hey there! I'm Kristofer Vickers, riding the coding wave at the University of Kansas bootcamp. I'm always on the lookout for new ways to make a tech impact, I'm mastering programming languages and tools. If you have any questions please feel free to contact me:
+I'm Kristofer Vickers, navigating the coding world over at the University of Kansas bootcamp. I'm always on the lookout for ways to make a positive impact in tech. Currently, I'm honing my skills in different programming languages and tools. Feel free to drop me a message if you have any questions or just want to connect:
 
-https://github.com/KristoferVickers
+GitHub: https://github.com/KristoferVickers
+Email: kristofervickers2018@gmail.com
 
-kristofervickers2018@gmail.com 
+Looking forward to hearing from you!
