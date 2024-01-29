@@ -50,11 +50,11 @@ Flags are the expression's mood-setters, influencing behavior. Our tutorial keep
 
 ### Grouping and Capturing
 
-Groups, denoted by (), are the organizers, treating multiple characters as a single unit. In our regex, they spotlight characters before @, before ., and after.
+Groups (denoted by ()) are like organizers, treating multiple characters as a single unit. They highlight characters before @, before ., and after.
 
 ### Bracket Expressions
 
-Brackets, or [], are the separators, creating character or group ranges. They bring flexibility to matching, a crucial aspect in our regex journey.
+Brackets [] are like separators, creating character or group ranges. They bring flexibility to our search.
 
 ### Greedy and Lazy Match
 
@@ -62,7 +62,7 @@ Greedy matching, the default regex behavior, seeks to match as much of the strin
 
 ### Boundaries
 
-\b exemplifies a word boundary, matching positions where one side is a word character and the other is not. Useful for matching letters or digits at the sequence's start or end.
+Think of \b as a boundary guard, making sure specific characters are at the start or end of our sequence.
 
 ### Back-references
 
@@ -70,7 +70,7 @@ Back-references (\2) are the echo, referring to a previous part of the regex, cr
 
 ### Look-ahead and Look-behind
 
-Represented as ?=foo (look-ahead) and ?<=foo (look-behind), these elements focus on what immediately follows or precedes the string "foo," respectively.
+Look-ahead (?=foo) and look-behind (?<=foo) peek into what comes after or before a specific part of our search.
 
 ## Author
 
