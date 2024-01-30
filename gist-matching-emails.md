@@ -28,7 +28,7 @@ A Regex or regular expression is a sequence of characters that define a search p
 
 We will look a a string of code using regex, this snippet will matcha nd validate an email.
 
-Example : ^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$
+Example : /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 The content below will give a description of each section of this code. 
 
